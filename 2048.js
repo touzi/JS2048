@@ -153,7 +153,7 @@ window.onkeydown = function(e){
 		if(game.over()){
 			game.clean();
 			startBtn.style.display = 'block';ee
-			startBtn.innerHTML = 'game over, replay?';
+			startBtn.innerHTML = '游戏结束,重新开始!';
 			return;
 		}
 		game.move(keychar);
